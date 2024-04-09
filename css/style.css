@@ -1,0 +1,117 @@
+/*******************bootstrap iocn css start*******************/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+/*******************bootstrap iocn css end*******************/
+
+body{
+	background:#fff;
+	font-size:14px;
+	color:#979797;
+}
+.bg-blue{
+	background:#1b9fdd;
+}
+.bg-gray{
+	background: gray;
+}
+.py-section{
+	padding:50px 0px;
+}
+/******************top menu css start****************/
+.navbar-brand{
+	width:110px;
+	border-right:4px solid #f66425;
+}
+.navmenu li .nav-link{
+	padding-right: 1.5rem!important;
+	padding-left: 1.5rem!important;
+	font-size: 16px;
+	color:#fff!important;
+}
+.navmenu li .nav-link.active, .navmenu li .nav-link:hover{
+	color:#000!important;
+}
+.header-search{
+	background: #0d85ba;
+	padding: 8px;
+}
+/******************top menu css end****************/
+
+/******************banenr css start****************/
+.banner_section{
+	padding:50px 0px;
+	background-image: url(../images/bg55.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.banner-left{
+	margin-top:150px;
+}
+.banner-left .bg-head-light{
+	background: #00000080;
+	letter-spacing: 10px;
+}
+.banner-left h6{
+	color: #e2e2e2;
+}
+.bg-login{
+	background: #e2e2e2;
+}
+.bg-login-head{
+	background: #8a8a88;
+}
+.banner-login .form-check-input {
+	width: 1.5em;
+	height: 1.5em;
+}
+.banner-login .form-check-label,.banner-login .form-label {
+	color:#777;
+}
+/******************banenr css end****************/
+
+/******************service css start****************/
+.service_section .icon-circle{
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+/******************service css end****************/
+
+/******************detail bg css start****************/
+.detailbg_section .left{
+
+	background-image: url(../images/middle.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	min-height:200px;
+}
+
+/*******************responsive css start*******************/
+@media (max-width: 991px) {
+	.navbar-collapse {
+		text-align:center;
+		padding:10px;
+		top: 53px;
+		left:0;
+		width: calc(100vw - 25px);
+		position: absolute;
+		background: #000000d1;
+		z-index:1;
+	}
+	.navmenu li .nav-link.active, .navmenu li .nav-link:hover{
+		color:#00aeff!important;
+	}
+}
+@media (max-width: 575px) {
+	.banner-left {
+		margin-top: 0px;
+	}
+	.banner-left .bg-head-light{
+		font-size:13px!important;
+		margin-right:0!important;
+	}
+}
+
+/*******************responsive css end*******************/
